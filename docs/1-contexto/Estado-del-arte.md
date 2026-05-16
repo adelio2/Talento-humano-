@@ -28,6 +28,3 @@ Este análisis examina las tendencias, soluciones tecnológicas e investigacione
 | Appian | 2024 | Plataforma BPM | Procesos empresariales lentos | BPM Low-Code | Workflow automation | Mejora en eficiencia operativa | Dependencia de plataforma | Apoya la gestión de procesos |
 
 
-### 5. Análisis y optimización de procesos
-Tecnologías como **Celonis** (Process Mining) demuestran la importancia de:
-- Identificar cuellos d

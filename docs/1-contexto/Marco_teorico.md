@@ -2,7 +2,7 @@
 
 El diseño de soluciones tecnológicas orientadas a la gestión organizacional requiere la comprensión de fundamentos teóricos relacionados con la gestión de procesos, los sistemas de información, la trazabilidad y la estructuración de flujos de trabajo, especialmente en áreas estratégicas como Talento Humano. Estos conceptos permiten formalizar las actividades internas de una organización, optimizar la gestión de la información y mejorar la eficiencia en la ejecución de procesos administrativos.
 
-En el contexto de la gestión de solicitudes de Talento Humano —como permisos laborales, vacaciones, certificaciones e incapacidades médicas—, la aplicación de estos enfoques resulta fundamental para garantizar el control, seguimiento y organización de las actividades, así como para fortalecer la toma de decisiones basada en información estructurada y confiable.
+En el contexto de la gestión de solicitudes de Talento Humano como permisos laborales, vacaciones, certificaciones e incapacidades médicas—, la aplicación de estos enfoques resulta fundamental para garantizar el control, seguimiento y organización de las actividades, así como para fortalecer la toma de decisiones basada en información estructurada y confiable.
 
 ---
 

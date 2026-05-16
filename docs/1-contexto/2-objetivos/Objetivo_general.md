@@ -1,4 +1,7 @@
-4. Objetivo General
+# 4. Objetivo General
+
 Diseñar una solución tecnológica orientada al área de Talento Humano de la empresa Nexa Servicios que permita registrar, gestionar y dar seguimiento a las solicitudes de permisos laborales, vacaciones, certificaciones laborales e incapacidades médicas, mediante la centralización de la información, la asignación de responsables y el registro del historial de cada proceso, con el propósito de mejorar la trazabilidad, la organización del trabajo y la eficiencia en la gestión de las actividades internas.
+
 Este objetivo busca dar respuesta a la problemática identificada en el área de Talento Humano de Nexa Servicios, relacionada con la ausencia de mecanismos formales para el registro y control de las solicitudes gestionadas actualmente a través de medios informales. El diseño de una solución tecnológica permitirá estructurar estos procesos, asegurando que cada solicitud cuente con un registro definido desde su creación hasta su cierre, lo que facilitará el seguimiento de las actividades y la asignación clara de responsabilidades.
+
 Asimismo, la centralización de la información contribuirá a reducir la pérdida de datos, evitar la duplicidad de solicitudes y mejorar la comunicación interna dentro del área de Talento Humano. De igual forma, el registro histórico de las acciones permitirá a la gerencia contar con información confiable para la toma de decisiones, así como identificar oportunidades de mejora en la gestión de los procesos organizacionales.

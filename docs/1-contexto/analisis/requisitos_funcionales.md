@@ -1,4 +1,4 @@
-# 9. Requisitos Funcionales
+#  Requisitos Funcionales
 
 | ID | HU Relacionada | Descripción |
 |----|---------------|-------------|

@@ -1,4 +1,4 @@
-# 11. Reglas de Negocio
+#  Reglas de Negocio
 
 | ID | Título | Descripción | Origen |
 |----|---------|-------------|---------|

@@ -1,19 +1,16 @@
-# Reglas de Negocio
+# 11. Reglas de Negocio
 
-| Código | Regla de Negocio |
-|---|---|
-| RN-01 | Toda solicitud realizada por un empleado deberá registrarse obligatoriamente en el sistema antes de iniciar su proceso de revisión. |
-| RN-02 | Cada solicitud registrada en el sistema deberá iniciar automáticamente con el estado “Pendiente”. |
-| RN-03 | Únicamente los usuarios autorizados del área de Talento Humano podrán aprobar, rechazar o modificar el estado de una solicitud. |
-| RN-04 | Las solicitudes de incapacidad médica deberán incluir obligatoriamente un documento de soporte válido para poder ser procesadas. |
-| RN-05 | Toda acción o modificación realizada sobre una solicitud deberá almacenarse automáticamente en el historial del sistema. |
-| RN-06 | Cada solicitud registrada deberá tener asignado un responsable encargado de su revisión y gestión. |
-| RN-07 | Las solicitudes aprobadas o rechazadas no podrán ser eliminadas del sistema para garantizar la trazabilidad de la información. |
-| RN-08 | El sistema deberá notificar automáticamente al empleado cuando exista un cambio en el estado de su solicitud. |
-| RN-09 | Toda solicitud deberá registrar automáticamente la fecha y hora de creación, actualización y respuesta dentro del sistema. |
-| RN-10 | Los empleados únicamente podrán visualizar y consultar las solicitudes asociadas a su propia cuenta. |
-| RN-11 | El sistema deberá validar que todos los campos obligatorios estén completos antes de permitir el envío de una solicitud. |
-| RN-12 | Cada solicitud registrada deberá conservar un identificador único para facilitar su consulta y seguimiento. |
-| RN-13 | El sistema deberá mantener un historial de estados y acciones realizadas sobre cada solicitud para garantizar control y trazabilidad del proceso. |
-| RN-14 | Toda solicitud rechazada deberá incluir una observación o motivo de rechazo registrado por el responsable de Talento Humano. |
-| RN-15 | La gestión de solicitudes laborales deberá realizarse únicamente mediante los canales oficiales definidos por la organización. |
+| ID | Título | Descripción | Origen |
+|----|---------|-------------|---------|
+| RN-01 | Registro obligatorio | Toda solicitud debe registrarse obligatoriamente en el sistema antes de ser procesada. | Política interna |
+| RN-02 | Adjuntar soporte médico | Las incapacidades médicas deben incluir un documento de soporte válido. | HU-06 |
+| RN-03 | Estados válidos | Las solicitudes solo pueden tener los estados Pendiente, En revisión, Aprobada, Rechazada o Cancelada. | HU-15 |
+| RN-04 | Cancelación restringida | Un empleado solo puede cancelar solicitudes que aún no hayan sido aprobadas o rechazadas. | HU-22 |
+| RN-05 | Flujo de aprobación | Los permisos laborales y vacaciones deberán ser aprobados inicialmente por el jefe inmediato, mientras que las incapacidades médicas y certificaciones laborales serán gestionadas por Talento Humano. | HU-07 |
+| RN-06 | Historial obligatorio | Todas las acciones realizadas sobre una solicitud deben quedar registradas en el historial. | HU-15 |
+| RN-07 | Reasignación controlada | Las solicitudes solo podrán ser reasignadas entre responsables autorizados de Talento Humano. | HU-23 |
+| RN-08 | Notificación automática | Cada cambio de estado debe generar una notificación automática al empleado. | HU-17 |
+| RN-09 | Identificación única | Cada solicitud debe tener un identificador único dentro del sistema. | Política interna |
+| RN-10 | Consulta de reportes | Los usuarios de Talento Humano podrán consultar reportes operativos relacionados con tiempos de respuesta y responsables. La Gerencia podrá visualizar además reportes globales y estadísticas organizacionales. | HU-18, HU-24 |
+| RN-11 | Conservación de información | Las solicitudes y sus historiales deben conservarse almacenados en el sistema. | Política interna |
+| RN-12 | Trazabilidad completa | El sistema debe permitir conocer quién creó, revisó, modificó o aprobó cada solicitud. | HU-15 |

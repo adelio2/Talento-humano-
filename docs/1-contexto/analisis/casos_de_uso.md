@@ -177,3 +177,5 @@
 ## 15.9 Diagrama UML de Casos de Uso
 
 El siguiente diagrama representa gráficamente las interacciones entre los actores del Sistema de Gestión de Solicitudes de Talento Humano y los casos de uso identificados durante el proceso de Ingeniería de Requisitos. Se incluyen las relaciones `<<include>>` y `<<extend>>` definidas para el sistema.
+<img width="908" height="494" alt="image" src="https://github.com/user-attachments/assets/7f7fedc9-64a6-4056-a4dc-f7ef05eca182" />
+

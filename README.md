@@ -19,7 +19,7 @@
 
 ---
 
-### Corporación Universitaria
+### Corporación Universitaria Remington
 
 #### Año 2026
 

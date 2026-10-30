@@ -1,5 +1,6 @@
 15. Casos de Uso (CU)
 
+<img width="930" height="589" alt="image" src="https://github.com/user-attachments/assets/4867be38-77ab-406f-8c76-354365e803c9" />
 Este capítulo documenta las interacciones del sistema con sus actores. Cada ficha conserva la plantilla de actor, precondición, flujo básico en Evento/Respuesta, alternativas y excepciones, poscondición y procedencia. La matriz final permite rastrear las HU y sus criterios de aceptación hasta el caso y el flujo que los cubre.
 
 ## 15.1 Diagrama general de casos de uso UML
@@ -289,4 +290,4 @@ Cada HU aparece con sus criterios de aceptación, RF, RN y RNF asociados, y el c
 | HU-59 | CA-1, CA-2, CA-3, CA-4 | RF-61 | RN-27 | RNF-01, RNF-02, RNF-03, RNF-06 | CU-13: CA-1–CA-4 → FB-01; restricciones → FA-02 |
 | HU-60 | CA-1, CA-2, CA-3, CA-4 | RF-62 | RN-03, RN-30 | RNF-01, RNF-02, RNF-03, RNF-04, RNF-05, RNF-06 | CU-14: CA-1–CA-3 → FB-01–FB-02; CA-4 → FA-01 |
 
-<img width="930" height="589" alt="image" src="https://github.com/user-attachments/assets/4867be38-77ab-406f-8c76-354365e803c9" />
+

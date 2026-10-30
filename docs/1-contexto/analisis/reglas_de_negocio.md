@@ -1,16 +1,311 @@
-#  Reglas de Negocio
+# Reglas de Negocio (RN)
 
-| ID | Título | Descripción | Origen |
-|----|---------|-------------|---------|
-| RN-01 | Registro obligatorio | Toda solicitud debe registrarse obligatoriamente en el sistema antes de ser procesada. | Política interna |
-| RN-02 | Adjuntar soporte médico | Las incapacidades médicas deben incluir un documento de soporte válido. | HU-06 |
-| RN-03 | Estados válidos | Las solicitudes solo pueden tener los estados Pendiente, En revisión, Aprobada, Rechazada o Cancelada. | HU-15 |
-| RN-04 | Cancelación restringida | Un empleado solo puede cancelar solicitudes que aún no hayan sido aprobadas o rechazadas. | HU-22 |
-| RN-05 | Flujo de aprobación | Los permisos laborales y vacaciones deberán ser aprobados inicialmente por el jefe inmediato, mientras que las incapacidades médicas y certificaciones laborales serán gestionadas por Talento Humano. | HU-07 |
-| RN-06 | Historial obligatorio | Todas las acciones realizadas sobre una solicitud deben quedar registradas en el historial. | HU-15 |
-| RN-07 | Reasignación controlada | Las solicitudes solo podrán ser reasignadas entre responsables autorizados de Talento Humano. | HU-23 |
-| RN-08 | Notificación automática | Cada cambio de estado debe generar una notificación automática al empleado. | HU-17 |
-| RN-09 | Identificación única | Cada solicitud debe tener un identificador único dentro del sistema. | Política interna |
-| RN-10 | Consulta de reportes | Los usuarios de Talento Humano podrán consultar reportes operativos relacionados con tiempos de respuesta y responsables. La Gerencia podrá visualizar además reportes globales y estadísticas organizacionales. | HU-18, HU-24 |
-| RN-11 | Conservación de información | Las solicitudes y sus historiales deben conservarse almacenados en el sistema. | Política interna |
-| RN-12 | Trazabilidad completa | El sistema debe permitir conocer quién creó, revisó, modificó o aprobó cada solicitud. | HU-15 |
+## 11.1 RN-01 — Registro previo obligatorio
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-01 |
+| Título corto | Registro previo obligatorio |
+| Enunciado | Toda solicitud debe registrarse en el sistema con la información obligatoria antes de continuar con su atención. |
+| Origen | HU-03 CA-1 a CA-4, HU-04 CA-1 a CA-3, HU-05 CA-1 y CA-2, HU-06 CA-1 y CA-2. |
+| RF que la vigilan | RF-03, RF-04, RF-05, RF-06 |
+
+## 11.2 RN-02 — Soporte médico obligatorio
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-02 |
+| Título corto | Soporte médico obligatorio |
+| Enunciado | Una incapacidad médica no puede registrarse completamente si el empleado no adjunta el soporte clínico requerido. |
+| Origen | HU-06 CA-2, CA-3, CA-4. |
+| RF que la vigilan | RF-06 |
+
+## 11.3 RN-03 — Estados válidos de la solicitud
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-03 |
+| Título corto | Estados válidos de la solicitud |
+| Enunciado | Las solicitudes deben utilizar los estados definidos por el proceso; entre los estados mostrados y utilizados por las HU se encuentran Pendiente, En revisión, Aprobada, Rechazada y Cancelada. |
+| Origen | HU-07 CA-3, HU-08 CA-3, HU-19 CA-1, HU-22 CA-1 a CA-3, HU-43 CA-1 a CA-3, HU-60 CA-2. |
+| RF que la vigilan | RF-07, RF-08, RF-20, RF-23, RF-45, RF-62 |
+
+## 11.4 RN-04 — Cancelación restringida
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-04 |
+| Título corto | Cancelación restringida |
+| Enunciado | Un empleado solo puede cancelar una solicitud que todavía no haya sido aprobada ni rechazada. |
+| Origen | HU-22 CA-1, CA-2, CA-3. |
+| RF que la vigilan | RF-23 |
+
+## 11.5 RN-05 — Aprobación autorizada
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-05 |
+| Título corto | Aprobación autorizada |
+| Enunciado | Una solicitud solo puede ser aprobada por un usuario que tenga autorización para realizar la aprobación y cuando la solicitud se encuentre en un estado que permita dicha acción. |
+| Origen | HU-07 CA-1, CA-2, CA-3; HU-11 CA-2, CA-3. |
+| RF que la vigilan | RF-07, RF-11 |
+
+## 11.6 RN-06 — Rechazo con motivo obligatorio
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-06 |
+| Título corto | Rechazo con motivo obligatorio |
+| Enunciado | Una solicitud solo puede rechazarse cuando el usuario autorizado registre el motivo requerido para la decisión. |
+| Origen | HU-08 CA-1 a CA-4. |
+| RF que la vigilan | RF-08 |
+
+## 11.7 RN-07 — Trazabilidad de cambios
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-07 |
+| Título corto | Trazabilidad de cambios |
+| Enunciado | Las acciones que modifiquen una solicitud deben quedar identificadas en su historial con el usuario responsable y la fecha; cuando corresponda, debe conservarse la información del cambio. |
+| Origen | HU-07 CA-2/CA-4, HU-08 CA-4, HU-15 CA-1 a CA-4, HU-16 CA-4, HU-19 CA-4, HU-22 CA-4, HU-23 CA-4, HU-44 CA-1 a CA-4. |
+| RF que la vigilan | RF-07, RF-08, RF-16, RF-17, RF-20, RF-23, RF-24, RF-46 |
+
+## 11.8 RN-08 — Responsable inicial autorizado
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-08 |
+| Título corto | Responsable inicial autorizado |
+| Enunciado | La asignación inicial debe utilizar un responsable configurado para el tipo de solicitud; si no existe un responsable disponible, no debe asignarse un usuario inexistente. |
+| Origen | HU-09 CA-1 a CA-4. |
+| RF que la vigilan | RF-09 |
+
+## 11.9 RN-09 — Reasignación con responsable autorizado
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-09 |
+| Título corto | Reasignación con responsable autorizado |
+| Enunciado | Una solicitud solo puede reasignarse a un responsable autorizado y la reasignación debe quedar asociada a la solicitud. |
+| Origen | HU-23 CA-1, CA-2, CA-4. |
+| RF que la vigilan | RF-24 |
+
+## 11.10 RN-10 — Motivo obligatorio de reasignación
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-10 |
+| Título corto | Motivo obligatorio de reasignación |
+| Enunciado | Toda reasignación debe registrar un motivo; sin ese motivo la operación no puede completarse. |
+| Origen | HU-23 CA-3/CA-4; HU-30 CA-1/CA-2. |
+| RF que la vigilan | RF-24, RF-32 |
+
+## 11.11 RN-11 — Alerta por falta de movimiento
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-11 |
+| Título corto | Alerta por falta de movimiento |
+| Enunciado | Una solicitud que permanezca más de tres días sin movimiento debe generar la alerta correspondiente y dirigirla al destinatario definido para su atención. |
+| Origen | HU-10 CA-1 a CA-4. |
+| RF que la vigilan | RF-10 |
+
+## 11.12 RN-12 — Saldo suficiente para vacaciones
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-12 |
+| Título corto | Saldo suficiente para vacaciones |
+| Enunciado | Una solicitud de vacaciones no puede aprobarse cuando los días solicitados superan el saldo disponible correspondiente al período. |
+| Origen | HU-11 CA-1 a CA-4. |
+| RF que la vigilan | RF-11 |
+
+## 11.13 RN-13 — Período de vacaciones válido
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-13 |
+| Título corto | Período de vacaciones válido |
+| Enunciado | La fecha final de una solicitud de vacaciones no puede ser anterior a la fecha inicial y la duración debe corresponder al período registrado. |
+| Origen | HU-04 CA-2/CA-4; HU-35 CA-1/CA-2. |
+| RF que la vigilan | RF-04, RF-37 |
+
+## 11.14 RN-14 — Generación de certificado condicionada
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-14 |
+| Título corto | Generación de certificado condicionada |
+| Enunciado | El certificado laboral solo puede generarse cuando la solicitud asociada se encuentre aprobada. |
+| Origen | HU-05 CA-3/CA-4; HU-12 CA-1/CA-2. |
+| RF que la vigilan | RF-05, RF-12 |
+
+## 11.15 RN-15 — Edición de solicitud pendiente
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-15 |
+| Título corto | Edición de solicitud pendiente |
+| Enunciado | El empleado solo puede modificar su solicitud mientras se encuentre en un estado que permita cambios; una solicitud ya procesada no puede editarse. |
+| Origen | HU-16 CA-1 a CA-3. |
+| RF que la vigilan | RF-17 |
+
+## 11.16 RN-16 — Nota obligatoria en En revisión
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-16 |
+| Título corto | Nota obligatoria en En revisión |
+| Enunciado | El cambio de una solicitud al estado En revisión requiere una nota explicativa que debe conservarse asociada al cambio. |
+| Origen | HU-19 CA-1 a CA-4. |
+| RF que la vigilan | RF-20 |
+
+## 11.17 RN-17 — Documento asociado a su solicitud
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-17 |
+| Título corto | Documento asociado a su solicitud |
+| Enunciado | Todo documento aceptado debe quedar asociado a la solicitud a la que pertenece y debe poder identificarse como soporte de esa solicitud. |
+| Origen | HU-06 CA-2, HU-14 CA-1/CA-3/CA-4, HU-31 CA-1/CA-4, HU-32 CA-1 a CA-3. |
+| RF que la vigilan | RF-06, RF-15, RF-33, RF-34 |
+
+## 11.18 RN-18 — Validación previa del documento
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-18 |
+| Título corto | Validación previa del documento |
+| Enunciado | Un archivo no puede registrarse como soporte válido si no cumple las condiciones permitidas de formato y tamaño. |
+| Origen | HU-14 CA-2, HU-31 CA-2/CA-3, HU-33 CA-1 a CA-4. |
+| RF que la vigilan | RF-15, RF-33, RF-35 |
+
+## 11.19 RN-19 — Identificación de carga del documento
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-19 |
+| Título corto | Identificación de carga del documento |
+| Enunciado | Cuando un documento se carga correctamente, debe conservarse la identificación del usuario que realizó la carga y la fecha correspondiente. |
+| Origen | HU-14 CA-3/CA-4, HU-31 CA-4. |
+| RF que la vigilan | RF-15, RF-33 |
+
+## 11.20 RN-20 — Recuperación mediante mecanismo temporal
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-20 |
+| Título corto | Recuperación mediante mecanismo temporal |
+| Enunciado | El mecanismo de recuperación de contraseña debe ser temporal y un mecanismo vencido o inválido no puede utilizarse para restablecer el acceso. |
+| Origen | HU-02 CA-1/CA-3/CA-4; HU-41 CA-1 a CA-4. |
+| RF que la vigilan | RF-02, RF-43 |
+
+## 11.21 RN-21 — Notificación al usuario correspondiente
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-21 |
+| Título corto | Notificación al usuario correspondiente |
+| Enunciado | Cuando se genera una notificación relacionada con una solicitud, debe dirigirse al empleado correspondiente y no presentarse como una notificación de otro usuario. |
+| Origen | HU-17 CA-1/CA-2/CA-4; HU-39 CA-1/CA-3. |
+| RF que la vigilan | RF-18, RF-41 |
+| Criterio de cumplimiento | La notificación debe quedar asociada al empleado destinatario correcto y no debe mostrarse como perteneciente a otro usuario. |
+
+## 11.22 RN-22 — Estado de lectura individual
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-22 |
+| Título corto | Estado de lectura individual |
+| Enunciado | Marcar una notificación como leída solo debe cambiar el estado de lectura de esa notificación y no modificar las notificaciones dirigidas a otros usuarios. |
+| Origen | HU-40 CA-1 a CA-4. |
+| RF que la vigilan | RF-42 |
+| Criterio de cumplimiento | Al marcar una notificación como leída, únicamente debe cambiar su estado de lectura; las demás notificaciones deben conservar su estado. |
+
+## 11.23 RN-23 — Radicado único para localizar solicitudes
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-23 |
+| Título corto | Radicado único para localizar solicitudes |
+| Enunciado | Cada solicitud registrada debe contar con un número de radicado que permita identificarla y localizarla de manera específica. |
+| Origen | HU-03 CA-1/CA-4, HU-26 CA-1/CA-4; HU-13 consulta por radicado. |
+| RF que la vigilan | RF-03, RF-13, RF-14 |
+| Criterio de cumplimiento | Cada solicitud registrada debe tener un radicado único y la consulta por ese radicado debe devolver únicamente la solicitud correspondiente. |
+
+## 11.24 RN-24 — Historial personal del empleado
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-24 |
+| Título corto | Historial personal del empleado |
+| Enunciado | La consulta del historial personal de un empleado debe mostrar únicamente las solicitudes pertenecientes a ese empleado. |
+| Origen | HU-21 CA-1 a CA-4. |
+| RF que la vigilan | RF-21 |
+| Criterio de cumplimiento | La consulta del historial personal debe mostrar únicamente las solicitudes asociadas al empleado seleccionado o consultante, según corresponda. |
+
+## 11.25 RN-25 — Información organizacional correspondiente
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-25 |
+| Título corto | Información organizacional correspondiente |
+| Enunciado | Al consultar el perfil organizacional de un empleado, el área, cargo y rol mostrados deben corresponder al empleado seleccionado y no mezclarse con datos de otros empleados. |
+| Origen | HU-25 CA-1 a CA-4. |
+| RF que la vigilan | RF-27 |
+| Criterio de cumplimiento | El área, cargo y rol mostrados deben corresponder al empleado consultado; el sistema no debe mezclar información organizacional de otros empleados. |
+
+## 11.26 RN-26 — Responsable vigente identificable
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-26 |
+| Título corto | Responsable vigente identificable |
+| Enunciado | La consulta del responsable actual debe mostrar únicamente la asignación que se encuentre vigente para la solicitud; una asignación finalizada no debe aparecer como responsable actual. |
+| Origen | HU-27 CA-1 a CA-4; HU-29 CA-1 a CA-3. |
+| RF que la vigilan | RF-29, RF-31 |
+| Criterio de cumplimiento | El responsable actual debe corresponder exclusivamente a una asignación vigente; las asignaciones finalizadas deben conservarse como historial y no presentarse como vigentes. |
+
+## 11.27 RN-27 — Consultas según autorización
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-27 |
+| Título corto | Consultas según autorización |
+| Enunciado | Las consultas de información restringida deben ejecutarse únicamente cuando el usuario tenga permiso para consultar la información solicitada. |
+| Origen | HU-15 CA-1, HU-20, HU-25, HU-26, HU-45 CA-1, HU-46 CA-1, HU-47 CA-1, HU-58 CA-1, HU-59 CA-1/CA-4. |
+| RF que la vigilan | RF-16, RF-21, RF-27, RF-28, RF-47, RF-48, RF-49, RF-60, RF-61 |
+| Criterio de cumplimiento | Una consulta de información restringida solo debe ejecutarse cuando el usuario cuente con la autorización correspondiente. |
+
+## 11.28 RN-28 — Detalle de auditoría disponible
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-28 |
+| Título corto | Detalle de auditoría disponible |
+| Enunciado | Cuando una auditoría conserva información de un cambio, la consulta debe permitir identificar el campo modificado y los valores anterior y nuevo cuando estén registrados. |
+| Origen | HU-15 CA-3; HU-47 CA-1 a CA-4. |
+| RF que la vigilan | RF-16, RF-49 |
+| Criterio de cumplimiento | Cuando exista información de auditoría sobre un cambio, el detalle debe identificar el campo modificado y conservar los valores anterior y nuevo cuando hayan sido registrados. |
+
+## 11.29 RN-29 — Reportes según criterios seleccionados
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-29 |
+| Título corto | Reportes según criterios seleccionados |
+| Enunciado | Los reportes deben construirse utilizando los criterios seleccionados por el usuario, como tipo, responsable o período, y no deben incluir información que quede fuera de dichos criterios. |
+| Origen | HU-18 CA-1/CA-3, HU-24 CA-1 a CA-3, HU-51 CA-1 a CA-4, HU-52 CA-1 a CA-4, HU-54 CA-1 a CA-4. |
+| RF que la vigilan | RF-19, RF-25, RF-53, RF-54, RF-56 |
+| Criterio de cumplimiento | El reporte debe aplicar los criterios seleccionados y excluir los registros que no cumplan con ellos. |
+
+## 11.30 RN-30 — Período de consulta coherente
+
+| Campo | Contenido |
+|---|---|
+| Código | RN-30 |
+| Título corto | Período de consulta coherente |
+| Enunciado | Cuando una consulta o reporte utiliza un período, la fecha inicial y la fecha final deben corresponder al período seleccionado y los resultados deben limitarse a ese rango. |
+| Origen | HU-18 CA-3, HU-24 CA-1/CA-3, HU-48 CA-1 a CA-4, HU-50 CA-2, HU-52 CA-3, HU-54 CA-1/CA-3, HU-58 CA-2, HU-60 CA-1/CA-3. |
+| RF que la vigilan | RF-19, RF-25, RF-50, RF-52, RF-54, RF-56, RF-60, RF-62 |
+| Criterio de cumplimiento | Cuando se seleccione un período, la fecha inicial y final deben ser coherentes y los resultados deben limitarse exclusivamente al rango indicado. |

@@ -4,7 +4,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.1 MK-01 — Acceso y recuperación
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/48972b77-6b07-4aba-ba78-ef391a8f318a" />
+
 
 *Figura 2. MK-01: Acceso y recuperación; vista de referencia con trazabilidad anotada.*
 
@@ -19,7 +20,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.2 MK-02 — Bandeja y búsqueda de solicitudes
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/4309d3fd-c6ad-4739-a5a4-28f2823c1cf5" />
+
 
 *Figura 3. MK-02: Bandeja y búsqueda de solicitudes; vista de referencia con trazabilidad anotada.*
 
@@ -34,7 +36,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.3 MK-03 — Registro y edición de solicitud
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/4db1fb72-7753-455c-bc91-4d0cbf30b835" />
+
 
 *Figura 4. MK-03: Registro y edición de solicitud; vista de referencia con trazabilidad anotada.*
 
@@ -49,7 +52,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.4 MK-04 — Detalle, historial y documentos
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/b58d2729-49fa-4cf9-b5fb-b1c472c88b75" />
+
 
 *Figura 5. MK-04: Detalle, historial y documentos; vista de referencia con trazabilidad anotada.*
 
@@ -64,7 +68,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.5 MK-05 — Bandeja de revisión y decisión
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/cbab6188-f9d3-43e5-bca1-a25206b6eb35" />
+
 
 *Figura 6. MK-05: Bandeja de revisión y decisión; vista de referencia con trazabilidad anotada.*
 
@@ -79,7 +84,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.6 MK-06 — Asignaciones y responsables
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/8b4444f3-269b-4d93-8ed6-a5000d7a86a9" />
+
 
 *Figura 7. MK-06: Asignaciones y responsables; vista de referencia con trazabilidad anotada.*
 
@@ -94,7 +100,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.7 MK-07 — Notificaciones y alertas
 
- 
+<img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/838358f7-65a4-43af-9d05-63a021806d88" />
+
 
 *Figura 8. MK-07: Notificaciones y alertas; vista de referencia con trazabilidad anotada.*
 
@@ -109,7 +116,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.8 MK-08 — Certificado laboral
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/e8d6e064-ca4a-4f8e-9d7e-63c5c41c4db9" />
+
 
 *Figura 9. MK-08: Certificado laboral; vista de referencia con trazabilidad anotada.*
 
@@ -124,7 +132,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.9 MK-09 — Saldo y días de vacaciones
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/1ceea2c7-37b7-4f2e-b89d-dc9e9ae91848" />
+
 
 *Figura 10. MK-09: Saldo y días de vacaciones; vista de referencia con trazabilidad anotada.*
 
@@ -139,7 +148,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.10 MK-10 — Perfil organizacional y catálogos
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/b9dd910a-1f2d-4b4d-95cc-0f65924b3f91" />
+
 
 *Figura 11. MK-10: Perfil organizacional y catálogos; vista de referencia con trazabilidad anotada.*
 
@@ -154,7 +164,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.11 MK-11 — Historial y auditoría
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/7442deaa-4fe6-4c86-a556-a5ec3a06c395" />
+
 
 *Figura 12. MK-11: Historial y auditoría; vista de referencia con trazabilidad anotada.*
 
@@ -169,7 +180,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 ## 16.12 MK-12 — Reportes y exportación
 
- 
+ <img width="930" height="549" alt="image" src="https://github.com/user-attachments/assets/dc37afdd-7127-48c1-a15d-87ec4dce35eb" />
+
 
 *Figura 13. MK-12: Reportes y exportación; vista de referencia con trazabilidad anotada.*
 

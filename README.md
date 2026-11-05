@@ -16,11 +16,11 @@ A continuación se presenta el mapa de navegación general del repositorio, estr
 | :--- | :--- | :--- | :---: |
 | **0. Cronograma del Proyecto** | [docs/cronograma.md](docs/cronograma.md) | Plan académico de 16 semanas (192 horas), tabla de actividades, compuerta de calidad M2 y asignación de responsabilidades. | **Disponible** |
 | **1. Fase 1: Concepción** | [docs/fase-1-concepcion/fase-1-concepcion.md](docs/fase-1-concepcion/fase-1-concepcion.md) | Planteamiento del problema en Nexa Servicios, alcance, objetivos general y específicos, estado del arte (20 referentes), marco teórico (BPM, HRIS), análisis de encuesta (47 respuestas) y problemas P-01 a P-12. | **Disponible (100% verificado)** |
-| **2. Fase 2: Análisis** | [docs/01-analisis/](docs/01-analisis/) | Historias de usuario (HU), requisitos funcionales (62 RF), reglas de negocio (30 RN), requisitos no funcionales (6 RNF), catálogo de casos de uso (14 CU) y mockups (12 MK). | **Siguiente fase** |
-| **3. Fase 3: Diseño** | [docs/02-diseno/](docs/02-diseno/) | Diccionario de datos (30 tablas normalizadas a 3FN), modelo relacional (MER), diagramas de clases UML y matriz integral de trazabilidad. | **Pendiente de fase** |
-| **4. Fase 4: Construcción** | [docs/03-construccion/](docs/03-construccion/) | Entrega de programación en MySQL (fichas `PRG-01` a `PRG-11`), repositorio Git, `.gitignore` y desarrollo del primer vertical slice MVC. | **En desarrollo** |
-| **5. Fase 5: Entrega Final** | `docs/04-entrega/` | Consolidación final del entregable documental y cierre de líneas base. | **Planificada (Sem. 16)** |
-| **6. Archivos Históricos** | [assets/historico/](assets/historico/) | Versiones previas de documentos (`Proyecto_Nexa_Servicios_Documentacion_completa.docx` y entregas intermedias) preservadas para trazabilidad y auditoría. | **Preservado** |
+| **2. Fase 2: Análisis** | [docs/fase-2-analisis/fase-2-analisis.md](docs/fase-2-analisis/fase-2-analisis.md) | Historias de usuario ([40 HU](docs/fase-2-analisis/2.1-historias-de-usuario.md)), requisitos funcionales ([62 RF](docs/fase-2-analisis/2.2-requisitos-funcionales.md)), requisitos no funcionales ([6 RNF](docs/fase-2-analisis/2.3-requisitos-no-funcionales.md)), reglas de negocio ([30 RN](docs/fase-2-analisis/2.4-reglas-de-negocio.md)), actores ([5 ACT](docs/fase-2-analisis/2.5-actores.md)), casos de uso ([14 CU](docs/fase-2-analisis/2.6-casos-de-uso.md)) y mockups ([12 MK](docs/fase-2-analisis/2.7-mockups.md)). | **Disponible (100% verificado)** |
+| **3. Fase 3: Diseño** | [docs/fase-3-diseno/fase-3-diseno.md](docs/fase-3-diseno/fase-3-diseno.md) | Diccionario de datos ([30 tablas físicas](docs/fase-3-diseno/3.1-diccionario-de-datos.md)), [normalización 3FN](docs/fase-3-diseno/3.2-normalizacion-3fn.md), modelo orientado a objetos ([clases UML y 4 vistas](docs/fase-3-diseno/3.3-modelo-orientado-a-objetos.md)), [diseño conductual MVC](docs/fase-3-diseno/3.4-diseno-conductual-mvc.md), [MER y modelo relacional](docs/fase-3-diseno/3.5-mer-y-modelo-relacional.md), [auditoría cruzada](docs/fase-3-diseno/3.6-auditoria-cruzada.md) y [matriz integral de trazabilidad](docs/fase-3-diseno/3.7-matriz-integral-de-trazabilidad.md). | **Disponible (100% verificado)** |
+| **4. Fase 4: Construcción** | [docs/fase-4-construccion/fase-4-construccion.md](docs/fase-4-construccion/fase-4-construccion.md) | Trazabilidad de objetos MySQL ([11 PRGs](docs/fase-4-construccion/4.1-trazabilidad-mysql-prg.md)), [control de versiones y .gitignore](docs/fase-4-construccion/4.2-repositorio-y-control-de-versiones.md), [arquitectura del slice MVC](docs/fase-4-construccion/4.3-arquitectura-vertical-slice-mvc.md) y [documento Word de entrega MySQL](docs/fase-4-construccion/13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx). | **Disponible (100% verificado)** |
+| **5. Fase 5: Entrega Final** | [docs/fase-5-entrega/fase-5-entrega.md](docs/fase-5-entrega/fase-5-entrega.md) | Consolidación final del entregable documental, trazabilidad de línea base y referencias bibliográficas completas. | **Disponible (100% verificado)** |
+| **6. Archivos Históricos** | [assets/historico/](assets/historico/) | Versiones previas de documentos (`Proyecto_Nexa_Servicios_...docx` y versiones iniciales de contexto, análisis y diseño) preservadas para auditoría. | **Preservado** |
 | **7. Recursos y Evidencias** | [assets/](assets/) | Gráfica del cronograma (`cronograma.jpeg`) y respuestas tabuladas de la encuesta institucional en PDF. | **Disponible** |
 
 ---
@@ -40,7 +40,7 @@ El proyecto surge de la necesidad de sustituir los canales informales y disperso
 
 ---
 
-## 2. Estructura de Directorios
+## 2. Estructura de Directorios del Repositorio
 
 ```text
 Talento-humano-/
@@ -51,15 +51,39 @@ Talento-humano-/
 │   ├── Encuesta de procesos internos... (1).pdf
 │   └── historico/                                     <- Archivos históricos preservados (versiones previas)
 │       ├── Proyecto_Nexa_Servicios_...docx
-│       └── version-previa-1-contexto/
+│       ├── version-previa-1-contexto/
+│       ├── version-previa-analisis/
+│       └── version-previa-diseno/
 └── docs/
     ├── cronograma.md                                  <- Cronograma de trabajo de 16 semanas y compuertas
     ├── fase-1-concepcion/                             <- Fase 1: Concepción (0.1 a 0.5)
-    │   └── fase-1-concepcion.md                       <- Documento íntegro con planteamiento, objetivos, marco, encuesta y problemas
-    ├── 01-analisis/                                   <- Fase 2: Análisis (HU, RF, RN, RNF, CU, Mockups)
-    ├── 02-diseno/                                     <- Fase 3: Diseño (Diccionario, MER, Clases, Matriz)
-    ├── 03-construccion/                               <- Fase 4: Construcción (Programación MySQL y vertical slice)
-    └── 04-entrega/                                    <- Fase 5: Entrega final
+    │   └── fase-1-concepcion.md                       <- Documento íntegro verificado
+    ├── fase-2-analisis/                               <- Fase 2: Análisis (1 a 4)
+    │   ├── fase-2-analisis.md                         <- Documento maestro de análisis
+    │   ├── 2.1-historias-de-usuario.md                <- 40 HU consolidadas
+    │   ├── 2.2-requisitos-funcionales.md              <- 62 RF con fichas
+    │   ├── 2.3-requisitos-no-funcionales.md           <- 6 RNF ISO/IEC 25010:2023
+    │   ├── 2.4-reglas-de-negocio.md                   <- 30 RN vinculadas
+    │   ├── 2.5-actores.md                             <- 5 actores del sistema
+    │   ├── 2.6-casos-de-uso.md                        <- 14 CU con 6 críticos
+    │   └── 2.7-mockups.md                             <- 12 pantallas UI/UX
+    ├── fase-3-diseno/                                 <- Fase 3: Diseño (5 a 12)
+    │   ├── fase-3-diseno.md                           <- Documento maestro de diseño
+    │   ├── 3.1-diccionario-de-datos.md                <- 30 tablas físicas
+    │   ├── 3.2-normalizacion-3fn.md                   <- Criterios de normalización 1FN a 3FN
+    │   ├── 3.3-modelo-orientado-a-objetos.md          <- Clases UML y 4 vistas
+    │   ├── 3.4-diseno-conductual-mvc.md               <- Actividades, paquetes, secuencias, estados
+    │   ├── 3.5-mer-y-modelo-relacional.md             <- MER y reglas de integridad
+    │   ├── 3.6-auditoria-cruzada.md                   <- Diccionario ↔ MER ↔ Clases
+    │   └── 3.7-matriz-integral-de-trazabilidad.md     <- Matriz completa (Tabla 18)
+    ├── fase-4-construccion/                           <- Fase 4: Construcción (13 a 15)
+    │   ├── fase-4-construccion.md                     <- Documento maestro de construcción
+    │   ├── 4.1-trazabilidad-mysql-prg.md              <- Tabla 50 y rutinas PRG-01 a PRG-11
+    │   ├── 4.2-repositorio-y-control-de-versiones.md  <- Control de versiones y compuerta M2
+    │   ├── 4.3-arquitectura-vertical-slice-mvc.md     <- Arquitectura del primer slice MVC
+    │   └── 13-Entrega_MySQL_Programacion_...docx      <- Entrega técnica de programación MySQL
+    └── fase-5-entrega/                                <- Fase 5: Entrega y Consolidación (16)
+        └── fase-5-entrega.md                          <- Línea base y referencias bibliográficas
 ```
 
 ---

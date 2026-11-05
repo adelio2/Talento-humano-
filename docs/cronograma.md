@@ -1,17 +1,17 @@
-# 00.5 Cronograma de Trabajo
+# Cronograma de Trabajo del Proyecto
 
-**Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano  
-**Organización:** Nexa Servicios  
-**Fase:** Concepción (Semanas 1–2)  
-**Artefactos del Cronograma:** 0.5 Cronograma de trabajo y compuertas de control  
+**Sistema de Gestión de Solicitudes de Talento Humano — Nexa Servicios**  
+*Facultad de Ingeniería, Universidad Remington — Ingeniería de Sistemas*  
+*Docente:* Prof. Gloria Amparo Lora Patiño  
+*Integrantes:* Javier Bernal Garavito | Jhulius Karol Escobar Gómez  
 
 ---
 
-## 7.2 Cronograma de Trabajo del Proyecto
+## 7.2 Cronograma de Trabajo
 
-Plan académico de **16 semanas** iniciado el lunes 3 de agosto de 2026. Cada semana contempla 4 horas presenciales y 8 horas de trabajo autónomo (12 horas semanales); el total previsto para el desarrollo del proyecto es de **192 horas**. Los responsables que aparecen en la tabla constituyen la distribución operativa del equipo entre Javier Bernal Garavito y Jhulius Karol Escobar Gómez.
+Plan académico de 16 semanas iniciado el lunes 3 de agosto de 2026. Cada semana contempla 4 horas presenciales y 8 horas de trabajo autónomo (12 horas); el total previsto es 192 horas. Los responsables que aparecen en la tabla son una propuesta de organización del equipo y deben confirmarse entre sus integrantes.
 
-### Tabla 3. Cronograma de trabajo del proyecto (16 Semanas)
+### Tabla 3. Cronograma de trabajo del proyecto
 
 | Semana | Inicio (lunes) | Horas | Fase | Artefactos y actividades clave | Punto de control y entregable | Responsable propuesto |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -34,16 +34,14 @@ Plan académico de **16 semanas** iniciado el lunes 3 de agosto de 2026. Cada se
 
 ---
 
-## Gestión Transversal del Cambio y la Configuración
+## Gestión transversal del cambio y la configuración
 
-* **Solicitudes Formales de Cambio (CRF):** Cada solicitud formal de cambio se registra y se decide antes de incorporarla al código o a la documentación.
-* **Trazabilidad en Control de Versiones:** El commit asociado debe citar el código CRF correspondiente. La etiqueta ES identifica la línea base.
-* **Compuerta de Calidad M2 (Semana 14):** No se integrará código fuente ni slices verticales en el repositorio sin que la Matriz Integral de Trazabilidad esté debidamente cerrada, auditada y revisada por el equipo.
+Cada solicitud formal de cambio (CRF) se registra y se decide antes de incorporarla. El commit asociado debe citar el CRF; la etiqueta ES identifica la línea base. Cada CRF mantiene el vínculo con los RF/HU afectados y el entregable versionado.
+
+* **Compuerta de Calidad M2 (Semana 14):** No integrar código sin matriz cerrada y revisada. Añadir enlace del repositorio.
 
 ---
 
-## Diagrama Gráfico del Cronograma
+## Diagrama del Cronograma
 
-A continuación se referencia la representación visual del cronograma de trabajo:
-
-![Cronograma de Trabajo de 16 Semanas](../assets/cronograma.jpeg)
+![Cronograma de Trabajo](../assets/cronograma.jpeg)

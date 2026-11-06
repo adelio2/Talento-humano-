@@ -87,6 +87,8 @@ Talento-humano-/
     │   ├── 4.1-trazabilidad-mysql-prg.md              <- Tabla 50 y rutinas PRG-01 a PRG-11
     │   ├── 4.2-repositorio-y-control-de-versiones.md  <- Control de versiones y compuerta M2
     │   ├── 4.3-arquitectura-vertical-slice-mvc.md     <- Arquitectura del primer slice MVC
+    │   ├── 4.4-script-ddl-talento-humano.md           <- Script DDL de 30 tablas en Markdown
+    │   ├── talento_humano-1.sql                       <- Script oficial DDL MySQL (30 tablas)
     │   └── 13-Entrega_MySQL_Programacion_...docx      <- Entrega técnica de programación MySQL
     └── fase-5-entrega/                                <- Fase 5: Entrega y Consolidación (16)
         └── fase-5-entrega.md                          <- Línea base y referencias bibliográficas

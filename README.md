@@ -23,7 +23,7 @@ A continuación se presenta el mapa de navegación general del repositorio, estr
 | **6. Diagramas y Arquitectura** | [assets/diagrams/](assets/diagrams/) | Diagramas UML de clases (Figuras 22-26), ciclo de actividad (Figura 27), DDA MVC (Figura 28), secuencia (Figuras 29-30), estados (Figura 31) y MER relacional (Figura 32). | **Disponible** |
 | **7. Pantallas y Mockups** | [assets/images/](assets/images/) | Diseños de pantalla anotados (MK-01 a MK-12, Figuras 10-21) y gráficas estadísticas de encuesta (Figuras 1-8). | **Disponible** |
 | **8. Archivos Históricos** | [assets/historico/](assets/historico/) | Versiones previas de documentos (Proyecto_Nexa_Servicios_...docx y versiones iniciales de contexto, análisis y diseño) preservadas para auditoría. | **Preservado** |
-| **9. Cronograma Visual y Encuesta** | [assets/](assets/) | Gráfica del cronograma (cronograma.jpeg) y respuestas tabuladas de la encuesta institucional en PDF. | **Disponible** |
+| **9. Documentos Word y Evidencias** | [assets/](assets/) | Documento Word oficial del proyecto ([Nexa servicios talento humano definitivo actual.docx](assets/Nexa%20servicios%20talento%20humano%20definitivo%20actual.docx)), entrega MySQL ([13-Entrega_MySQL...docx](assets/13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx)), cronograma visual ([cronograma.jpeg](assets/cronograma.jpeg)) y respuestas de encuesta en PDF. | **Disponible** |
 
 ---
 
@@ -49,6 +49,8 @@ Talento-humano-/
 ├── README.md                                          <- Tabla de contenido para la docente y guía del proyecto
 ├── .gitignore                                         <- Filtro de archivos temporales de Office, SO y secretos
 ├── assets/                                            <- Recursos de apoyo, diagramas y evidencias
+│   ├── Nexa servicios talento humano definitivo actual.docx <- Documento Word oficial consolidado del proyecto
+│   ├── 13-Entrega_MySQL_Programacion_...docx          <- Documento Word oficial de programación MySQL
 │   ├── cronograma.jpeg                                <- Gráfica visual del cronograma institucional (16 semanas)
 │   ├── Encuesta de procesos internos... (1).pdf       <- Tabulación original de encuesta (47 respuestas)
 │   ├── diagrams/                                      <- Diagramas UML de clases, actividad, MVC, secuencia, estados y MER

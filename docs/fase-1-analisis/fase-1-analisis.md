@@ -1,4 +1,4 @@
-# 2. Fase 2: Análisis
+# 1. Fase 1: Análisis
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano  
 **Organización:** Nexa Servicios  
@@ -10,13 +10,13 @@
 
 ## Índice de la Fase de Análisis
 
-* [2.1 Historias de Usuario (HU-01 a HU-40)](2.1-historias-de-usuario.md)
-* [2.2 Requisitos Funcionales (RF-01 a RF-62)](2.2-requisitos-funcionales.md)
-* [2.3 Requisitos No Funcionales (RNF-01 a RNF-06)](2.3-requisitos-no-funcionales.md)
-* [2.4 Reglas de Negocio (RN-01 a RN-30)](2.4-reglas-de-negocio.md)
-* [2.5 Actores del Sistema (ACT-01 a ACT-05)](2.5-actores.md)
-* [2.6 Casos de Uso (CU-01 a CU-14)](2.6-casos-de-uso.md)
-* [2.7 Mockups e Interfaces de Usuario (MK-01 a MK-12)](2.7-mockups.md)
+* [2.1 Historias de Usuario (HU-01 a HU-40)](1.1-historias-de-usuario.md)
+* [2.2 Requisitos Funcionales (RF-01 a RF-62)](1.2-requisitos-funcionales.md)
+* [2.3 Requisitos No Funcionales (RNF-01 a RNF-06)](1.3-requisitos-no-funcionales.md)
+* [2.4 Reglas de Negocio (RN-01 a RN-30)](1.4-reglas-de-negocio.md)
+* [2.5 Actores del Sistema (ACT-01 a ACT-05)](1.5-actores.md)
+* [2.6 Casos de Uso (CU-01 a CU-14)](1.6-casos-de-uso.md)
+* [2.7 Mockups e Interfaces de Usuario (MK-01 a MK-12)](1.7-mockups.md)
 
 ---
 

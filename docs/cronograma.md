@@ -15,15 +15,15 @@ Plan académico de 16 semanas iniciado el lunes 3 de agosto de 2026. Cada semana
 
 | Fase del Curso | Semanas | Fechas | Horas Presenciales (4 h/sem) | Horas Autónomas (8 h/sem) | Horas Totales | Entregables Clave | Correspondencia en Carpetas Git |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Concepción (Fase 0)** | Semanas 1–2 | 03/08/2026 – 16/08/2026 | 8 h | 16 h | 24 h | Problema, alcance, objetivos, marco teórico y encuesta | docs/fase-1-concepcion/ |
-| **Análisis (Fase 1)** | Semanas 3–6 | 17/08/2026 – 13/09/2026 | 16 h | 32 h | 48 h | Cronograma, 40 HU, 62 RF, 30 RN, 6 RNF, 14 CU y 12 Mockups | docs/fase-2-analisis/ |
-| **Diseño (Fase 2)** | Semanas 7–12 | 14/09/2026 – 25/10/2026 | 24 h | 48 h | 72 h | Diccionario de datos, MER, Diagrama de clases (4 vistas), Actividad, DDA, Secuencia, Estados y Matriz integral | docs/fase-3-diseno/ |
-| **Fase 3 (Construcción)** | Semanas 13–16 | 26/10/2026 – 22/11/2026 | 16 h | 32 h | 48 h | Script SQL DDL (30 tablas), DML, rutinas MySQL (PRG-01 a PRG-11), Repositorio Git, slice MVC y consolidación final | docs/fase-4-construccion/ y docs/fase-5-entrega/ |
+| **Concepción (Fase 0)** | Semanas 1–2 | 03/08/2026 – 16/08/2026 | 8 h | 16 h | 24 h | Problema, alcance, objetivos, marco teórico y encuesta | docs/fase-0-concepcion/ |
+| **Análisis (Fase 1)** | Semanas 3–6 | 17/08/2026 – 13/09/2026 | 16 h | 32 h | 48 h | Cronograma, 40 HU, 62 RF, 30 RN, 6 RNF, 14 CU y 12 Mockups | docs/fase-1-analisis/ |
+| **Diseño (Fase 2)** | Semanas 7–12 | 14/09/2026 – 25/10/2026 | 24 h | 48 h | 72 h | Diccionario de datos, MER, Diagrama de clases (4 vistas), Actividad, DDA, Secuencia, Estados y Matriz integral | docs/fase-2-diseno/ |
+| **Fase 3 (Construcción)** | Semanas 13–16 | 26/10/2026 – 22/11/2026 | 16 h | 32 h | 48 h | Script SQL DDL (30 tablas), DML, rutinas MySQL (PRG-01 a PRG-11), Repositorio Git, slice MVC y consolidación final | docs/fase-3-construccion/ y docs/fase-3-construccion/ |
 | **TOTAL** | **16 semanas** | **03/08/2026 – 22/11/2026** | **64 h** | **128 h** | **192 h** | **Ciclo de vida completo del proyecto de software** | **Todo el repositorio** |
 
 > [!NOTE] Nota sobre la nomenclatura de Fases y la estructura de carpetas
 > En la planificación académica aprobada por la institución y en el diagrama oficial ([assets/cronograma.jpeg](../assets/cronograma.jpeg)), el curso divide el ciclo en cuatro grandes fases: **Concepción** (S01–S02, referida como Fase 0), **Análisis** (S03–S06, Fase 1 del curso), **Diseño** (S07–S12, Fase 2 del curso) y **Fase 3 (Construcción)** (S13–S16, abarcando tanto el desarrollo técnico como la entrega y consolidación final en la Semana 16).
-> En el repositorio de código, la documentación se organizó en 5 carpetas secuenciales (ase-1-concepcion a ase-5-entrega) para independizar operativamente los artefactos de desarrollo técnico (alojados en docs/fase-4-construccion/) del entregable final compilado (alojado en docs/fase-5-entrega/).
+> En el repositorio de código, la documentación se organizó en 5 carpetas secuenciales (ase-1-concepcion a ase-5-entrega) para independizar operativamente los artefactos de desarrollo técnico (alojados en docs/fase-3-construccion/) del entregable final compilado (alojado en docs/fase-3-construccion/).
 
 ### Tabla 3. Cronograma de trabajo del proyecto
 

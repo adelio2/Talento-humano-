@@ -1,4 +1,4 @@
-# 3. Fase 3: Diseño
+# 2. Fase 2: Diseño
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano  
 **Organización:** Nexa Servicios  
@@ -10,13 +10,13 @@
 
 ## Índice de la Fase de Diseño
 
-* [3.1 Diccionario de Datos (30 Tablas Físicas)](3.1-diccionario-de-datos.md)
-* [3.2 Revisión Lógica de Normalización (1FN, 2FN, 3FN)](3.2-normalizacion-3fn.md)
-* [3.3 Modelo Orientado a Objetos y Diagrama de Clases UML](3.3-modelo-orientado-a-objetos.md)
-* [3.4 Diseño Conductual y Arquitectura en Paquetes MVC](3.4-diseno-conductual-mvc.md)
-* [3.5 MER y Modelo Relacional](3.5-mer-y-modelo-relacional.md)
-* [3.6 Auditoría Cruzada (Diccionario ↔ MER ↔ Clases)](3.6-auditoria-cruzada.md)
-* [3.7 Matriz Integral de Trazabilidad](3.7-matriz-integral-de-trazabilidad.md)
+* [3.1 Diccionario de Datos (30 Tablas Físicas)](2.1-diccionario-de-datos.md)
+* [3.2 Revisión Lógica de Normalización (1FN, 2FN, 3FN)](2.2-normalizacion-3fn.md)
+* [3.3 Modelo Orientado a Objetos y Diagrama de Clases UML](2.3-modelo-orientado-a-objetos.md)
+* [3.4 Diseño Conductual y Arquitectura en Paquetes MVC](2.4-diseno-conductual-mvc.md)
+* [3.5 MER y Modelo Relacional](2.5-mer-y-modelo-relacional.md)
+* [3.6 Auditoría Cruzada (Diccionario ↔ MER ↔ Clases)](2.6-auditoria-cruzada.md)
+* [3.7 Matriz Integral de Trazabilidad](2.7-matriz-integral-de-trazabilidad.md)
 
 ---
 

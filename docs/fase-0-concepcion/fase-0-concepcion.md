@@ -1,4 +1,4 @@
-# 1. Fase 1: Concepción
+# 0. Fase 0: Concepción
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano  
 **Organización:** Nexa Servicios  

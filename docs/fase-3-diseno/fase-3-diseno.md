@@ -572,6 +572,8 @@ Diagrama de Clases UML del sistema (núcleo y especialización de solicitudes)
 
 #### Figura 22. Diagrama de Clases UML - Gestión de Solicitudes.
 
+![Figura 22. Diagrama de Clases UML - Gestión de Solicitudes](../../assets/diagrams/figura-22-diagrama-clases-uml.png)
+
 Este diagrama presenta el núcleo de solicitudes y sus especializaciones. Sus atributos y relaciones se contrastan con el Diccionario de Datos y talento_humano-1.sql; la exclusividad entre subtipos permanece como validación de aplicación, porque el script no la impone.
 
 Vistas ampliadas por subdominio del diagrama de clases (30 entidades)
@@ -584,11 +586,15 @@ Solicitud es una clase concreta que sirve como base conceptual. PermisoLaboral, 
 
 #### Figura 23. Vista UML del núcleo y la especialización de solicitudes.
 
+![Figura 23. Vista UML del núcleo y la especialización de solicitudes](../../assets/diagrams/figura-23-vista-uml-nucleo-especializacion.png)
+
 ### 16.2 Catálogos de tipo y estado
 
 Cada permiso, vacación o incapacidad se vincula con un tipo y un estado propios. Un registro de catálogo puede clasificar varias instancias del subtipo correspondiente.
 
 #### Figura 24. Vista UML de los catálogos de los subtipos.
+
+![Figura 24. Vista UML de los catálogos de los subtipos](../../assets/diagrams/figura-24-vista-uml-catalogos-subtipos.png)
 
 ### 16.3 Gestión y seguimiento
 
@@ -596,11 +602,15 @@ Una solicitud puede tener cero o varios registros de historial, asignaciones, do
 
 #### Figura 25. Vista UML del flujo y seguimiento de solicitudes.
 
+![Figura 25. Vista UML del flujo y seguimiento de solicitudes](../../assets/diagrams/figura-25-vista-uml-flujo-seguimiento.png)
+
 ### 16.4 Usuarios, acceso y auditoría
 
 Se muestran las relaciones organizacionales del usuario y las entidades de recuperación, acceso, reportes y auditoría.
 
 #### Figura 26. Vista UML de usuarios y servicios de soporte.
+
+![Figura 26. Vista UML de usuarios y servicios de soporte](../../assets/diagrams/figura-26-vista-uml-usuarios-soporte.png)
 
 ### 16.5 Criterios de corrección UML
 
@@ -621,21 +631,31 @@ Los siguientes diagramas presentan el flujo, la arquitectura lógica en paquetes
 
 #### Figura 27. Diagrama de actividad del ciclo de una solicitud.
 
+![Figura 27. Diagrama de actividad del ciclo de una solicitud](../../assets/diagrams/figura-27-diagrama-actividad-ciclo-solicitud.png)
+
 Trazabilidad: HU-03 a HU-04, HU-15, HU-18; RF-03 a RF-09, RF-13, RF-20, RF-23 y RF-26; RN-01 a RN-08, RN-13, RN-16, RN-21 y RN-23.
 
 #### Figura 28. DDA de arquitectura lógica con paquetes MVC.
+
+![Figura 28. DDA de arquitectura lógica con paquetes MVC](../../assets/diagrams/figura-28-dda-arquitectura-logica-mvc.png)
 
 Trazabilidad funcional: CU-01 a CU-14. Vista conceptual del diseño MVC; los paquetes no implican que sus componentes estén implementados.
 
 #### Figura 29. Diagrama de secuencia para registrar una solicitud.
 
+![Figura 29. Diagrama de secuencia para registrar una solicitud](../../assets/diagrams/figura-29-diagrama-secuencia-registrar-solicitud.png)
+
 Trazabilidad: HU-03; RF-03 a RF-06 y RF-13; RN-01, RN-02, RN-13 y RN-23; persistencia de Solicitud y del subtipo aplicable.
 
 #### Figura 30. Diagrama de secuencia para decidir una solicitud.
 
+![Figura 30. Diagrama de secuencia para decidir una solicitud](../../assets/diagrams/figura-30-diagrama-secuencia-decidir-solicitud.png)
+
 Trazabilidad: HU-04, HU-15, HU-18; RF-07, RF-08, RF-20, RF-23 y RF-26; RN-03 a RN-07, RN-16 y RN-21; evento en HistorialSolicitud.
 
 #### Figura 31. Diagrama de estados de Solicitud.
+
+![Figura 31. Diagrama de estados de Solicitud](../../assets/diagrams/figura-31-diagrama-estados-solicitud.png)
 
 Trazabilidad: HU-04, HU-15, HU-18; RF-07, RF-08, RF-20 y RF-23; RN-03 a RN-07 y RN-16. La transición válida requiere control de permisos y estado.
 
@@ -649,6 +669,8 @@ Este artefacto se construye a partir del Diccionario de Datos actualizado y mant
 ### 17.1 Entidades y claves
 
 #### Figura 32. Modelo relacional de talento_humano.
+
+![Figura 32. Modelo relacional de talento_humano](../../assets/diagrams/figura-32-modelo-relacional-talento-humano.png)
 
 Cada tarjeta enumera campos, tipos y restricciones. FK → tabla señala la referencia; una FK no única implica 1:N y una FK con UQ limita la relación a 1:1. NULL y NOT NULL indican la opcionalidad del lado que contiene la FK.
 

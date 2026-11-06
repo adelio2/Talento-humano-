@@ -151,15 +151,27 @@ Se revisó el archivo de respuestas de la encuesta de procesos internos y experi
 ¿Cuál es tu rango de edad?
 Esta pregunta permitió caracterizar la distribución etaria de los 47 participantes de la encuesta (n = 47). El grupo mayoritario corresponde a menores de 20 años con 55,3 % (26 respuestas), seguido del rango de 21 a 40 años con 38,3 % (18 respuestas) y de mayores de 40 años con 6,4 % (3 respuestas). Este resultado describe únicamente la composición demográfica de la muestra consultada, sin inferir hábitos digitales solo a partir de la edad.
 
+#### Figura 1. Distribución por rango de edad (Pregunta 1; n = 47)
+
+![Figura 1. Distribución por rango de edad](../../assets/images/figura-01-pregunta-1.png)
+
 #### Pregunta 2: Experiencia solicitando permisos
 *¿Has tenido que pedir permisos o vacaciones en algún trabajo o actividad antes?*
 ¿Has tenido que pedir permisos o vacaciones en algún trabajo o actividad antes?
 Sobre un total de 47 respuestas (n = 47), el 42,6 % (20 personas) indicó haber solicitado permisos o vacaciones pocas veces y el 34,0 % (16 personas) afirmó haberlo hecho con frecuencia, lo que suma un 76,6 % (36 participantes) con experiencia previa en este tipo de trámites, frente a un 23,4 % (11 personas) que nunca lo ha hecho. Esto muestra que más de tres cuartas partes de los encuestados conocen el trámite por experiencia directa.
 
+#### Figura 2. Experiencia previa al solicitar permisos o vacaciones (Pregunta 2; n = 47)
+
+![Figura 2. Experiencia previa al solicitar permisos o vacaciones](../../assets/images/figura-02-pregunta-2.png)
+
 #### Pregunta 3: Información importante al realizar una solicitud
 *Al realizar una solicitud, ¿qué información considera indispensable recibir como respuesta?*
 Al realizar una solicitud, ¿qué información considera indispensable recibir como respuesta?
 En esta pregunta de selección múltiple (n = 47, por lo que los porcentajes suman más de 100 % al calcularse sobre 47 encuestados), la información más valorada al radicar una solicitud fue recibir confirmación de recibido con 55,3 % (26 menciones), seguida de conocer el nombre de quien revisará la solicitud con 36,2 % (17 menciones), la fecha aproximada de respuesta con 34,0 % (16 menciones) y el estado actual del trámite con 31,9 % (15 menciones). Estos datos sustentan los requisitos de radicado único, asignación visible de responsable y consulta de estado.
+
+#### Figura 3. Información que se espera al radicar una solicitud (Pregunta 3; n = 47)
+
+![Figura 3. Información que se espera al radicar una solicitud](../../assets/images/figura-03-pregunta-3.png)
 
 #### Pregunta 4: Permiso urgente sin un canal claro
 *Si mañana necesitara gestionar un permiso urgente y desconociera el canal o responsable al que dirigirse, ¿cómo describiría esa experiencia y qué acciones tomaría?*
@@ -171,10 +183,18 @@ De 47 participantes, 46 respondieron esta pregunta abierta y una respuesta qued�
 ¿Qué tan importante es que exista un solo lugar oficial para hacer solicitudes en lugar de usar varios chats o correos?
 En la escala de 1 a 5 (con n = 46 respuestas válidas y 1 no respuesta sobre los 47 participantes), el nivel 5 (muy importante) obtuvo 41,3 % (19 respuestas) y el nivel 4 alcanzó 21,7 % (10 respuestas), concentrando conjuntamente el 63,0 % (29 de 46) en valoración alta; el nivel intermedio 3 registró 13,0 % (6 respuestas), el nivel 2 obtuvo 10,9 % (5 respuestas) y el nivel 1 registró 13,0 % (6 respuestas). Ello respalda la centralización de las solicitudes en un canal oficial.
 
+#### Figura 4. Importancia de contar con un canal oficial único (Pregunta 5; n = 46 respuestas válidas)
+
+![Figura 4. Importancia de contar con un canal oficial único](../../assets/images/figura-04-pregunta-5.png)
+
 #### Pregunta 6: Falta de respuesta después de varios días
 *Si transcurrieran tres días hábiles sin recibir respuesta a una solicitud importante, ¿cuál sería su primera acción?*
 Si transcurrieran tres días hábiles sin recibir respuesta a una solicitud importante, ¿cuál sería su primera acción?
 Ante el escenario hipotético de tres días hábiles sin respuesta (n = 47), el 57,4 % (27 participantes) dice que buscaría a alguien en persona o llamaría, el 27,7 % (13) volvería a preguntar por el mismo medio, el 10,6 % (5) esperaría sin insistir y el 4,3 % (2) lo comentaría con un compañero. En conjunto, el 85,1 % (40 de 47) plantea hacer seguimiento manual; el resultado respalda considerar notificaciones automáticas y alertas por inactividad mayor a tres días.
+
+#### Figura 5. Acción ante tres días hábiles sin respuesta (Pregunta 6; n = 47)
+
+![Figura 5. Acción ante tres días hábiles sin respuesta](../../assets/images/figura-05-pregunta-6.png)
 
 #### Pregunta 7: Retrasos o pérdida de solicitudes
 *¿Ha experimentado alguna vez el extravío de una solicitud o una respuesta considerablemente tardía?*
@@ -187,17 +207,29 @@ De 47 participantes, 43 respondieron esta pregunta abierta y 4 la dejaron en bla
 Las opciones disponibles eran (podían elegir más de una): que se pierda un papel que entregué, que me digan que "sí" y luego que "no" porque alguien olvidó registrarlo, tener que preguntar tres veces lo mismo porque nadie sabe nada, y no saber si mi jefe ya leyó mi mensaje.
 Hallazgo: En esta pregunta de selección múltiple (n = 45 participantes y 2 sin respuesta), las opciones describen situaciones que afectarían el desempeño, no incidentes que cada persona afirme haber vivido. La más seleccionada fue recibir un sí y luego un no por falta de registro, con 55,6 % (25 menciones), seguida de tener que preguntar varias veces con 44,4 % (20), la pérdida de un papel entregado con 42,2 % (19) y no saber si el jefe leyó el mensaje con 15,6 % (7). Los resultados muestran riesgos percibidos y respaldan priorizar el registro formal y la trazabilidad, sin estimar la incidencia real de esos problemas.
 
+#### Figura 6. Situaciones que afectan el desempeño laboral (Pregunta 8; n = 45 respuestas válidas)
+
+![Figura 6. Situaciones que afectan el desempeño laboral](../../assets/images/figura-06-pregunta-8.png)
+
 #### Pregunta 9: Nivel de incertidumbre
 *¿Con qué frecuencia experimenta incertidumbre o estrés al gestionar solicitudes de permisos o vacaciones, debido a la falta de claridad en el proceso?*
 ¿Con qué frecuencia experimenta incertidumbre o estrés al gestionar solicitudes de permisos o vacaciones, debido a la falta de claridad en el proceso?
 Esta pregunta usó una escala del 1 (poca incertidumbre) al 5 (mucha incertidumbre).
 Hallazgo: En la escala de 1 a 5 (n = 47), el nivel 1 (poca incertidumbre) registró el valor individual más alto con 38,3 % (18 respuestas) y el nivel 2 obtuvo 8,5 % (4 respuestas), sumando 46,8 % (22 personas) en niveles bajos; sin embargo, el nivel 3 concentró 21,3 % (10 respuestas), el nivel 4 registró 12,8 % (6 respuestas) y el nivel 5 (mucha incertidumbre) alcanzó 19,1 % (9 respuestas). Así, los niveles altos (4 y 5) representan el 31,9 % (15 personas) y el conjunto de incertidumbre moderada a alta (niveles 3 a 5) abarca el 53,2 % (25 de 47 participantes).
 
+#### Figura 7. Nivel de incertidumbre al gestionar solicitudes (Pregunta 9; n = 47)
+
+![Figura 7. Nivel de incertidumbre al gestionar solicitudes](../../assets/images/figura-07-pregunta-9.png)
+
 #### Pregunta 10: Medio preferido para hacer solicitudes
 *Si tuviera la posibilidad de elegir el medio para solicitar sus vacaciones, ¿cuál preferiría?*
 Si tuviera la posibilidad de elegir el medio para solicitar sus vacaciones, ¿cuál preferiría?
 Las opciones disponibles eran: una página web sencilla, una aplicación en el celular, hablar directamente con el encargado, o enviar un correo formal.
 Hallazgo: Entre los 47 participantes (n = 47), la opción con mayor frecuencia individual fue «enviar un correo formal» con 34,0 % (16 respuestas), seguida de «una página web sencilla» con 25,5 % (12 respuestas), «hablar directamente con el encargado» con 23,4 % (11 respuestas) y «una aplicación en el celular» con 17,0 % (8 respuestas). Aunque el correo formal lidera de manera individual, las alternativas de plataforma interactiva (página web sencilla más aplicación móvil) suman el 42,6 % (20 respuestas), y el total de canales digitales o escritos con registro (correo formal, web y aplicación móvil) alcanza el 76,6 % (36 de 47), frente al 23,4 % verbal.
+
+#### Figura 8. Medio preferido para solicitar vacaciones (Pregunta 10; n = 47)
+
+![Figura 8. Medio preferido para solicitar vacaciones](../../assets/images/figura-08-pregunta-10.png)
 
 ---
 

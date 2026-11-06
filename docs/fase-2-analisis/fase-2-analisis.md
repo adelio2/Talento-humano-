@@ -1722,6 +1722,8 @@ Este capítulo documenta las interacciones del sistema con sus actores. Cada fic
 
 #### Figura 9. Diagrama general de casos de uso del Sistema de Gestión de Solicitudes de Talento Humano.
 
+![Figura 9. Diagrama general de casos de uso](../../assets/diagrams/figura-09-diagrama-casos-de-uso.png)
+
 El límite representa el sistema y las asociaciones conectan cada actor con los casos en los que participa. La relación «include» parte de CU-03 hacia CU-04 porque registrar una solicitud ejecuta la asignación inicial. La relación «extend» parte de CU-08 hacia CU-03 y se activa cuando se adjunta un soporte. Ambas relaciones se conectan a sus casos base según la notación UML y aparecen en la Figura 9.
 
 #### Catálogo de casos de uso. La tabla resume su operación, las historias que los originan y los requisitos funcionales que implementan.
@@ -1937,6 +1939,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 10. MK-01: Acceso y recuperación; vista de referencia con trazabilidad anotada.
 
+![Figura 10. MK-01: Acceso y recuperación](../../assets/images/figura-10-mk-01-acceso-recuperacion.png)
+
 #### Tabla 6. Trazabilidad del mockup MK-01: Acceso y recuperación
 
 | Código | MK-01 |
@@ -1951,6 +1955,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.2 MK-02 — Bandeja y búsqueda de solicitudes
 
 #### Figura 11. MK-02: Bandeja y búsqueda de solicitudes; vista de referencia con trazabilidad anotada.
+
+![Figura 11. MK-02: Bandeja y búsqueda de solicitudes](../../assets/images/figura-11-mk-02-bandeja-busqueda.png)
 
 #### Tabla 7. Trazabilidad del mockup MK-02: Bandeja y búsqueda de solicitudes
 
@@ -1967,6 +1973,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 12. MK-03: Registro y edición de solicitud; vista de referencia con trazabilidad anotada.
 
+![Figura 12. MK-03: Registro y edición de solicitud](../../assets/images/figura-12-mk-03-registro-edicion.png)
+
 #### Tabla 8. Trazabilidad del mockup MK-03: Registro y edición de solicitud
 
 | Código | MK-03 |
@@ -1981,6 +1989,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.4 MK-04 — Detalle, historial y documentos
 
 #### Figura 13. MK-04: Detalle, historial y documentos; vista de referencia con trazabilidad anotada.
+
+![Figura 13. MK-04: Detalle, historial y documentos](../../assets/images/figura-13-mk-04-detalle-historial-documentos.png)
 
 #### Tabla 9. Trazabilidad del mockup MK-04: Detalle, historial y documentos
 
@@ -1997,6 +2007,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 14. MK-05: Bandeja de revisión y decisión; vista de referencia con trazabilidad anotada.
 
+![Figura 14. MK-05: Bandeja de revisión y decisión](../../assets/images/figura-14-mk-05-bandeja-decision.png)
+
 #### Tabla 10. Trazabilidad del mockup MK-05: Bandeja de revisión y decisión
 
 | Código | MK-05 |
@@ -2011,6 +2023,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.6 MK-06 — Asignaciones y responsables
 
 #### Figura 15. MK-06: Asignaciones y responsables; vista de referencia con trazabilidad anotada.
+
+![Figura 15. MK-06: Asignaciones y responsables](../../assets/images/figura-15-mk-06-asignaciones-responsables.png)
 
 #### Tabla 11. Trazabilidad del mockup MK-06: Asignaciones y responsables
 
@@ -2027,6 +2041,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 16. MK-07: Notificaciones y alertas; vista de referencia con trazabilidad anotada.
 
+![Figura 16. MK-07: Notificaciones y alertas](../../assets/images/figura-16-mk-07-notificaciones-alertas.png)
+
 #### Tabla 12. Trazabilidad del mockup MK-07: Notificaciones y alertas
 
 | Código | MK-07 |
@@ -2041,6 +2057,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.8 MK-08 — Certificado laboral
 
 #### Figura 17. MK-08: Certificado laboral; vista de referencia con trazabilidad anotada.
+
+![Figura 17. MK-08: Certificado laboral](../../assets/images/figura-17-mk-08-certificado-laboral.png)
 
 #### Tabla 13. Trazabilidad del mockup MK-08: Certificado laboral
 
@@ -2057,6 +2075,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 18. MK-09: Saldo y días de vacaciones; vista de referencia con trazabilidad anotada.
 
+![Figura 18. MK-09: Saldo y días de vacaciones](../../assets/images/figura-18-mk-09-saldo-vacaciones.png)
+
 #### Tabla 14. Trazabilidad del mockup MK-09: Saldo y días de vacaciones
 
 | Código | MK-09 |
@@ -2071,6 +2091,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.10 MK-10 — Perfil organizacional y catálogos
 
 #### Figura 19. MK-10: Perfil organizacional y catálogos; vista de referencia con trazabilidad anotada.
+
+![Figura 19. MK-10: Perfil organizacional y catálogos](../../assets/images/figura-19-mk-10-perfil-organizacional.png)
 
 #### Tabla 15. Trazabilidad del mockup MK-10: Perfil organizacional y catálogos
 
@@ -2087,6 +2109,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 
 #### Figura 20. MK-11: Historial y auditoría; vista de referencia con trazabilidad anotada.
 
+![Figura 20. MK-11: Historial y auditoría](../../assets/images/figura-20-mk-11-historial-auditoria.png)
+
 #### Tabla 16. Trazabilidad del mockup MK-11: Historial y auditoría
 
 | Código | MK-11 |
@@ -2101,6 +2125,8 @@ Este capítulo representa las vistas de interacción del sistema a partir de las
 ### 14.12 MK-12 — Reportes y exportación
 
 #### Figura 21. MK-12: Reportes y exportación; vista de referencia con trazabilidad anotada.
+
+![Figura 21. MK-12: Reportes y exportación](../../assets/images/figura-21-mk-12-reportes-exportacion.png)
 
 #### Tabla 17. Trazabilidad del mockup MK-12: Reportes y exportación
 

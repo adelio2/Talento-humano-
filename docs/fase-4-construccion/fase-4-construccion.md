@@ -13,6 +13,8 @@
 * [4.1 Trazabilidad de Objetos Programables en MySQL (PRG-01 a PRG-11)](4.1-trazabilidad-mysql-prg.md)
 * [4.2 Repositorio Git y Control de Versiones](4.2-repositorio-y-control-de-versiones.md)
 * [4.3 Arquitectura y Primer Vertical Slice MVC](4.3-arquitectura-vertical-slice-mvc.md)
+* [4.4 Script SQL DDL de Base de Datos (talento_humano-1.sql)](4.4-script-ddl-talento-humano.md)
+* [Archivo Físico SQL Oficial (talento_humano-1.sql)](talento_humano-1.sql)
 * [Documento Word de Entrega MySQL (Capítulo 20)](13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx)
 
 ---
@@ -29,7 +31,7 @@
 
 ## 19. Trazabilidad de objetos MySQL del equipo
 
-Esta matriz consolida los **11 bloques PRG** descritos por el equipo MySQL y los relaciona con métodos UML, las 40 HU, RF, RN/RNF, CU, MK y tablas. El archivo 	alento_humano-1.sql contiene 30 tablas y no declara procedimientos, funciones, triggers, eventos ni vistas; por eso, los bloques PRG se atribuyen al documento de programación del equipo. Las correspondencias se establecen por función y no por coincidencia numérica entre las HU del documento MySQL y las HU consolidadas. Este cruce se revisa junto con el diccionario y la matriz integral.
+Esta matriz consolida los **11 bloques PRG** descritos por el equipo MySQL y los relaciona con métodos UML, las 40 HU, RF, RN/RNF, CU, MK y tablas. El archivo talento_humano-1.sql contiene 30 tablas y no declara procedimientos, funciones, triggers, eventos ni vistas; por eso, los bloques PRG se atribuyen al documento de programación del equipo. Las correspondencias se establecen por función y no por coincidencia numérica entre las HU del documento MySQL y las HU consolidadas. Este cruce se revisa junto con el diccionario y la matriz integral.
 
 ### Tabla 50. Correspondencia con la entrega MySQL del equipo
 
@@ -49,10 +51,11 @@ Esta matriz consolida los **11 bloques PRG** descritos por el equipo MySQL y los
 
 ---
 
-## Estado y Registro del Script SQL Físico
+## Estado y Entrega Oficial del Script SQL Físico
 
-* **Situación Actual:** El archivo físico .sql fue retirado en commits anteriores del repositorio. Queda formalmente registrado como **pendiente de entrega oficial** por parte del compañero responsable de base de datos.
-* **Respaldo Documental:** La especificación completa de las 30 tablas físicas se encuentra en el [3.1 Diccionario de Datos](../fase-3-diseno/3.1-diccionario-de-datos.md) y las rutinas programables se respaldan en el documento adjunto [13-Entrega_MySQL_Programacion_...docx](13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx).
+* **Situación Actual:** El archivo físico oficial de base de datos entregado por el compañero de equipo ha sido incorporado formalmente en esta fase: [talento_humano-1.sql](talento_humano-1.sql) (versión Markdown documentada en [4.4 Script SQL DDL](4.4-script-ddl-talento-humano.md)).
+* **Contenido Técnico:** Define las 30 tablas físicas bajo el motor transaccional InnoDB y cotejamiento utf8mb4_unicode_ci, con integridad referencial completa y restricciones UNIQUE y CHECK.
+* **Respaldo Documental:** La especificación cruzada de las 30 tablas físicas se encuentra en el [3.1 Diccionario de Datos](../fase-3-diseno/3.1-diccionario-de-datos.md), la trazabilidad funcional en la Tabla 50 y las fichas técnicas de rutinas en [13-Entrega_MySQL_Programacion_...docx](13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx).
 
 
 ---
@@ -107,3 +110,11 @@ El primer vertical slice implementará el flujo completo y trazable de un trámi
 3. **Capa Controlador (C):** Control de flujo, validación de sesiones, permisos de rol (ACT-01) y validación de reglas de negocio (RN-01, RN-23).
 4. **Capa Modelo / Lógica de Negocio (M):** Entidad Solicitud y subtipo PermisoLaboral con cálculo derivado de días.
 5. **Capa Persistencia:** Inserción transaccional atómica en las tablas Solicitud, PermisoLaboral, AsignacionSolicitud e HistorialSolicitud.
+
+
+---
+
+## 4.4 Script SQL DDL de Base de Datos
+
+El script oficial entregado por el compañero de equipo ([talento_humano-1.sql](talento_humano-1.sql)) se encuentra disponible en su archivo fuente físico y en su versión Markdown:
+* **Detalle completo y código fuente:** [4.4 Script SQL DDL de Base de Datos](4.4-script-ddl-talento-humano.md).

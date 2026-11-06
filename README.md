@@ -20,8 +20,10 @@ A continuación se presenta el mapa de navegación general del repositorio, estr
 | **3. Fase 3: Diseño** | [docs/fase-3-diseno/fase-3-diseno.md](docs/fase-3-diseno/fase-3-diseno.md) | Diccionario de datos ([30 tablas físicas](docs/fase-3-diseno/3.1-diccionario-de-datos.md)), [normalización 3FN](docs/fase-3-diseno/3.2-normalizacion-3fn.md), modelo orientado a objetos ([clases UML y 4 vistas](docs/fase-3-diseno/3.3-modelo-orientado-a-objetos.md)), [diseño conductual MVC](docs/fase-3-diseno/3.4-diseno-conductual-mvc.md), [MER y modelo relacional](docs/fase-3-diseno/3.5-mer-y-modelo-relacional.md), [auditoría cruzada](docs/fase-3-diseno/3.6-auditoria-cruzada.md) y [matriz integral de trazabilidad](docs/fase-3-diseno/3.7-matriz-integral-de-trazabilidad.md). | **Disponible (100% verificado)** |
 | **4. Fase 4: Construcción** | [docs/fase-4-construccion/fase-4-construccion.md](docs/fase-4-construccion/fase-4-construccion.md) | Trazabilidad de objetos MySQL ([11 PRGs](docs/fase-4-construccion/4.1-trazabilidad-mysql-prg.md)), [control de versiones y .gitignore](docs/fase-4-construccion/4.2-repositorio-y-control-de-versiones.md), [arquitectura del slice MVC](docs/fase-4-construccion/4.3-arquitectura-vertical-slice-mvc.md) y [documento Word de entrega MySQL](docs/fase-4-construccion/13-Entrega_MySQL_Programacion_Jhulius_Escobar_Javier_Bernal.docx). | **Disponible (100% verificado)** |
 | **5. Fase 5: Entrega Final** | [docs/fase-5-entrega/fase-5-entrega.md](docs/fase-5-entrega/fase-5-entrega.md) | Consolidación final del entregable documental, trazabilidad de línea base y referencias bibliográficas completas. | **Disponible (100% verificado)** |
-| **6. Archivos Históricos** | [assets/historico/](assets/historico/) | Versiones previas de documentos (`Proyecto_Nexa_Servicios_...docx` y versiones iniciales de contexto, análisis y diseño) preservadas para auditoría. | **Preservado** |
-| **7. Recursos y Evidencias** | [assets/](assets/) | Gráfica del cronograma (`cronograma.jpeg`) y respuestas tabuladas de la encuesta institucional en PDF. | **Disponible** |
+| **6. Diagramas y Arquitectura** | [assets/diagrams/](assets/diagrams/) | Diagramas UML de clases (Figuras 22-26), ciclo de actividad (Figura 27), DDA MVC (Figura 28), secuencia (Figuras 29-30), estados (Figura 31) y MER relacional (Figura 32). | **Disponible** |
+| **7. Pantallas y Mockups** | [assets/images/](assets/images/) | Diseños de pantalla anotados (MK-01 a MK-12, Figuras 10-21) y gráficas estadísticas de encuesta (Figuras 1-8). | **Disponible** |
+| **8. Archivos Históricos** | [assets/historico/](assets/historico/) | Versiones previas de documentos (Proyecto_Nexa_Servicios_...docx y versiones iniciales de contexto, análisis y diseño) preservadas para auditoría. | **Preservado** |
+| **9. Cronograma Visual y Encuesta** | [assets/](assets/) | Gráfica del cronograma (cronograma.jpeg) y respuestas tabuladas de la encuesta institucional en PDF. | **Disponible** |
 
 ---
 
@@ -47,8 +49,10 @@ Talento-humano-/
 ├── README.md                                          <- Tabla de contenido para la docente y guía del proyecto
 ├── .gitignore                                         <- Filtro de archivos temporales de Office, SO y secretos
 ├── assets/                                            <- Recursos de apoyo, diagramas y evidencias
-│   ├── cronograma.jpeg
-│   ├── Encuesta de procesos internos... (1).pdf
+│   ├── cronograma.jpeg                                <- Gráfica visual del cronograma institucional (16 semanas)
+│   ├── Encuesta de procesos internos... (1).pdf       <- Tabulación original de encuesta (47 respuestas)
+│   ├── diagrams/                                      <- Diagramas UML de clases, actividad, MVC, secuencia, estados y MER
+│   ├── images/                                        <- Pantallas de mockups (MK-01 a MK-12) y gráficos de encuesta
 │   └── historico/                                     <- Archivos históricos preservados (versiones previas)
 │       ├── Proyecto_Nexa_Servicios_...docx
 │       ├── version-previa-1-contexto/

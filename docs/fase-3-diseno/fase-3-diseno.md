@@ -712,6 +712,10 @@ Control documental: el proyecto consolida 62 RF, 30 RN, 6 RNF, 40 HU funcionales
 
 Repositorio Git del proyecto: https://github.com/adelio2/Talento-humano-
 
+#### Tabla 50. Correspondencia con la entrega MySQL del equipo
+
+Esta matriz consolida los 11 bloques PRG descritos por el equipo MySQL y los relaciona con métodos UML, las 40 HU, RF, RN/RNF, CU, MK y tablas. El archivo talento_humano-1.sql contiene 30 tablas y no declara procedimientos, funciones, triggers, eventos ni vistas; por eso, los bloques PRG se atribuyen al documento de programación del equipo. Las correspondencias se establecen por función y no por coincidencia numérica entre las HU del documento MySQL y las HU consolidadas. Este cruce se revisa junto con el diccionario y la matriz integral.
+
 | Código | Objetos MySQL | Método UML relacionado | Trazabilidad HU / RF / RN / RNF / CU / MK | Tablas involucradas |
 | --- | --- | --- | --- | --- |
 | PRG-01 | PROCEDURE sp_autenticar_usuario(IN p_correo, IN p_hash_ingresado, IN p_ip) | Usuario.iniciarSesion(): boolean / Usuario.bloquearCuenta(): void (Vista 1 y Vista 4) | HU-01, HU-33| CU-01, CU-13 | RF-01, RF-47, RF-60 | RN-27 | RNF-03 | MK-01, MK-11 | Usuario (R/U), Rol (R), Area (R), Cargo (R), RegistroAcceso (C) |
@@ -725,10 +729,6 @@ Repositorio Git del proyecto: https://github.com/adelio2/Talento-humano-
 | PRG-09 | TRIGGER trg_solicitud_after_update_notificar_auditar / PROCEDURE sp_marcar_notificacion_leida | Notificacion.marcarComoLeida(): void + AuditoriaSistema / DetalleAuditoria (Vistas 3 y 4) | HU-11, HU-13, HU-31, HU-34| CU-09, CU-13 | RF-18, RF-41, RF-42, RF-48, RF-49, RF-61 | RN-21, RN-22, RN-28 | MK-07, MK-11 | Solicitud, Notificacion (C/U), AuditoriaSistema (C), DetalleAuditoria (C) |
 | PRG-10 | PROCEDURE sp_generar_alertas_sin_movimiento() + EVENT evt_alerta_solicitudes_sin_movimiento | Caso de Uso CU-09 Gestionar notificaciones y alertas (HU-06 / RN-11) | HU-06 | CU-09 | RF-10 | RN-11 | MK-07 | Solicitud (R), HistorialSolicitud (R), AsignacionSolicitud (R), Notificacion (C) |
 | PRG-11 | VIEW vw_bandeja_solicitudes_completa / VIEW vw_perfil_organizacional / PROCEDURE sp_reporte_tiempos_y_resumen | Reporte.generar(): string (Vista 4) + Consultas CU-07, CU-12, CU-14 | HU-09, HU-14, HU-16 a HU-17, HU-20 a HU-22, HU-33 a HU-34, HU-37 a HU-40| CU-07, CU-12, CU-14 | RF-14, RF-19, RF-21, RF-25, RF-27, RF-28, RF-52 a RF-62 | RN-23 a RN-25, RN-27, RN-29, RN-30 | RNF-01 | MK-02, MK-04, MK-10, MK-12 | Solicitud, Usuario, Area, Cargo, Rol, TipoSolicitud, EstadoSolicitud, AsignacionSolicitud, Reporte, TipoReporte |
-
-#### Tabla 50. Correspondencia con la entrega MySQL del equipo
-
-Esta matriz consolida los 11 bloques PRG descritos por el equipo MySQL y los relaciona con métodos UML, las 40 HU, RF, RN/RNF, CU, MK y tablas. El archivo talento_humano-1.sql contiene 30 tablas y no declara procedimientos, funciones, triggers, eventos ni vistas; por eso, los bloques PRG se atribuyen al documento de programación del equipo. Las correspondencias se establecen por función y no por coincidencia numérica entre las HU del documento MySQL y las HU consolidadas. Este cruce se revisa junto con el diccionario y la matriz integral.
 
 
 ## 3.7 Matriz Integral de Trazabilidad

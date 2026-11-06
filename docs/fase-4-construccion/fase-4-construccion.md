@@ -18,7 +18,7 @@
 ---
 
 
-# 4.1 Trazabilidad de Objetos Programables en MySQL (PRG-01 a PRG-11)
+## 4.1 Trazabilidad de Objetos Programables en MySQL (PRG-01 a PRG-11)
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano — Nexa Servicios  
 **Fase:** Fase 4 — Construcción (Semanas 13–15)  
@@ -57,7 +57,7 @@ Esta matriz consolida los **11 bloques PRG** descritos por el equipo MySQL y los
 
 ---
 
-# 4.2 Repositorio Git y Control de Versiones
+## 4.2 Repositorio Git y Control de Versiones
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano — Nexa Servicios  
 **Fase:** Fase 4 — Construcción (Semana 14)  
@@ -90,7 +90,7 @@ Conforme a lo establecido en el cronograma institucional:
 
 ---
 
-# 4.3 Arquitectura y Primer Vertical Slice MVC
+## 4.3 Arquitectura y Primer Vertical Slice MVC
 
 **Proyecto:** Sistema de Gestión de Solicitudes de Talento Humano — Nexa Servicios  
 **Fase:** Fase 4 — Construcción (Semana 15)  
